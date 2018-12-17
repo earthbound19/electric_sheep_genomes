@@ -1,7 +1,7 @@
 # Electric Sheep genomes
 Backups of genomes from various generations of Scott Draves' Electric Sheep evolved generative art.
 
-(If you haven't downloaded and installed the [Electric Sheep](https://electricsheep.org/) screensaver before, drop everything and _do it now!_
+If you haven't downloaded and installed the [Electric Sheep](https://electricsheep.org/) screensaver before, drop everything and _do it now!_
 
 Every work of art in that project has "genes," a set of math instructions to generate the work.
 
