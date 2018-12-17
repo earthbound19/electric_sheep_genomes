@@ -6,4 +6,5 @@ do
 	# Happily, wget saves nothing if nothing is found (404); so the following will only save valid genes:
 	wget http://electricsheep.com/archives/generation-243/$padded_id/electricsheep.243.$padded_id.flam3
 	sleep 0.32
+	echo $padded_id > query_log.txt
 done
