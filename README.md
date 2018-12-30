@@ -48,6 +48,9 @@ For example, appending that to the gen 247 URL gives:
 - Whoa wait what? I had previously gotten a ~flock.xml file or two, with the entire flock of a given generation in it? I have this here in a local folder, ~`electricSheepGeneration245_flock.xml`. Uh wut? Make use of that? Find where I got them? I think I remember it was at the index (root) of a flock server?
 
 ## Elsewhere
-Archives of the Electric Sheep are in archive.org. One URL of many to potentially list:
+Archives of the Electric Sheep are in archive.org. Some URLs of many to potentially list:
 
+- https://archive.org/details/ElectricSheep -- which probably leads to:
 - https://archive.org/details/electricsheep-flock-244/00244%3D00190%3D00095%3D00182.avi
+- https://archive.org/download/electricsheep-flock-244-80000-0
+- https://archive.org/download/electricsheep-flock-244-80000-3 -- note that URL is the same except the 3 at the end--how high does that numbering go?
