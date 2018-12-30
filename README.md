@@ -29,12 +29,25 @@ For example, appending that to the gen 247 URL gives:
 `http://electricsheep.com/archives/generation-243`
 
 ### 244
-`http://v2d7c.sheepserver.net/gen/244`
+- [Original project archive](http://electricsheep.com/archives/generation-244/best.cgi)
+- License: human-designed genomes [CC-Attribution](http://electricsheep.com/archives/generation-244/dead.cgi?id=82653&detail=stats). Robot-designed genomes [CC-noncommercial](http://electricsheep.com/archives/generation-244/dead.cgi?id=86022).
+- Base URL of genomes: `http://electricsheep.com/archives/generation-244`
+- [Page crediting designers by username](http://electricsheep.com/archives/generation-244/best.cgi?p=0&menu=designer)
+- I _thought_ the base URL of genomes was different? I thought it was: `http://v2d7c.sheepserver.net/gen/244` -- why did I think this? Where did I get this particular URL with the peculiar v2d7c subdomain?
 
 ### 247
 `http://v3d0.sheepserver.net/gen/247`
 
 ## TO DO
+- Use archive of old archives! [http://electricsheep.com/archives/](http://electricsheep.com/archives/)
 - Find and document license information per flock
 - Find out why some .flam3 files downloaded have more than one flame in them. Do they render as one image or two? I would think two. And are some of them "lost" sheep I wasn't able to find at the server (and logged in `lost_sheep.txt` files)?
 - Any TO DO items in any .sh scripts or other README.md files in this project
+- Get answers to questions asked in this document
+- Find out how to programmatically ascertain the license--if that's even possible--for any given genome. Will robot-designed ones credit "brood" as the designer in the genome somewhere? I believe the `<edit..` tags in [this genome](http://electricsheep.com/archives/generation-244/dead.cgi?id=86022&detail=genome) may answer the question (the newest edit, if it reads "clone brood," I think means that it was interbred by a robot. The new ID in the "clone brood" edit tag is the resulting genome ID, and the ID in the previous edit tag is the sheep it was bred with to produce the new sheep. It seems.
+- Whoa wait what? I had previously gotten a ~flock.xml file or two, with the entire flock of a given generation in it? I have this here in a local folder, ~`electricSheepGeneration245_flock.xml`. Uh wut? Make use of that? Find where I got them? I think I remember it was at the index (root) of a flock server?
+
+## Elsewhere
+Archives of the Electric Sheep are in archive.org. One URL of many to potentially list:
+
+- https://archive.org/details/electricsheep-flock-244/00244%3D00190%3D00095%3D00182.avi
