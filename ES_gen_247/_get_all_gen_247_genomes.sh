@@ -5,8 +5,8 @@
 # http://www.archive.org/download/electricsheep-flock-247-12500-5/00247=14285=14285=14285.avi
 
 # count backward from the highest known sheep (at this writing) to zero; re: https://unix.stackexchange.com/questions/64861/how-to-display-numbers-in-reverse-order-using-seq1#comment93123_64861
-# Highest known genome id at this writing in flock is: 17660
-for ((id=17660; id>=0; id--))
+# Highest known genome id at this writing in flock is: 33486 (I slowly scanned down from 70000 and nothing was in the range 33486-70000)
+for ((id=33486; id>=0; id--))
 do
 	padded_id=`printf "%05d" $id`
 	echo query candidate id is $padded_id . . .
@@ -23,7 +23,7 @@ do
 		fi
 		# Even if there was an error retrieving the genome, try to retrieve an accompanying render image, because there are genomes without an image and maybe visa versa:
 	wget http://v3d0.sheepserver.net/gen/247/$id/electricsheep.247.$padded_id.jpg
-	sleep 0.14
+	sleep 1.24
 	else
 		echo "FOUND local genome file electricsheep.247.$padded_id.flam3--will not attempt to retrieve nor overwrite."
 	fi
